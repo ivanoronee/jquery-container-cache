@@ -1,0 +1,105 @@
+<!--
+  ~ Copyright (c)  2017, Ivan Orone
+  ~
+  ~ Permission to use, copy, modify, and/or distribute this software for any
+  ~ purpose with or without fee is hereby granted, provided that the above
+  ~ copyright notice and this permission notice appear in all copies.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+  ~ REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+  ~ AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+  ~ INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+  ~ LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE
+  ~ OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+  ~ PERFORMANCE OF THIS SOFTWARE.
+  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>jQuery container cache</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- build:js js/jquery-container-cache-0.0.1-SNAPSHOT.min.js -->
+    <script src="js/jquery-container-cache.js"></script>
+    <!-- endbuild -->
+    <!-- build:js js/main.js -->
+    <script src="js/main.js"></script>
+    <!-- endbuild -->
+</head>
+<body>
+<div class="container">
+    <p class="h2">Bind using default properties</p>
+
+    <form class="form-1" id="form-1">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" name="exampleInputEmail1"
+                   placeholder="Email">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" name="exampleInputPassword1"
+                   placeholder="Password">
+        </div>
+        <div class="form-group">
+            <label for="selectMultiple">Select all that apply</label>
+            <select class="form-control" id="selectMultiple" name="selectMultiple" multiple>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="selectOne">Select one</label>
+            <select class="form-control" id="selectOne" name="selectOne">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" name="newsletter" value="receive_news_letter"><b>Subscribe to news letter</b>
+            </label>
+        </div>
+        <div class="form-group">
+            <label for="selectOne">Select applicable option</label>
+
+            <div class="radio">
+                <label><input type="radio" name="radionOption" value="option1">Option 1</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="radionOption" value="option2">Option 2</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="radionOption" value="option3">Option 3</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label>What pets do you have, select all that apply</label>
+
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="exampleInputCheckbox1[]" value="dogs"> Dogs
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="exampleInputCheckbox1[]" value="cats"> Cats
+                </label>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="exampleInputCheckbox1[]" value="rabbits"> Rabbits
+                </label>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+</div>
+</body>
+</html>

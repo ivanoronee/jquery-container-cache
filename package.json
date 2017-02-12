@@ -1,0 +1,29 @@
+{
+  "name": "jquery-container-cache",
+  "version": "1.0.0-SNAPSHOT",
+  "description": "jQuery plugin to cache user input up until a user submits the form or a specific event is fired.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "jquery-container-cache"
+  },
+  "keywords": [
+    "jQuery",
+    "form-cache",
+    "container-cache"
+  ],
+  "author": "Ivan Orone",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-if": "^2.0.2",
+    "gulp-uglify": "^2.0.1",
+    "gulp-useref": "^3.1.2",
+    "run-sequence": "^1.2.2"
+  }
+}
