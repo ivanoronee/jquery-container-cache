@@ -4,7 +4,8 @@
 
 
 ## Usage
-Intialize the plugin on the container of the form 
+Intialize the plugin on any given container. See the file [index.html](https://raw.githubusercontent.com/ivanoronee/jquery-container-cache/master/index.html) for more information. Better documentation will
+be written shortly.
 
 ## Todo
 
